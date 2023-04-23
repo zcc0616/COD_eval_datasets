@@ -4,10 +4,13 @@
 1.评价指标
   
   Matlab代码
+    
     修改Matlab/main.m中"--CamMapPath","--Models","--DataPath","--Datasets","--ResDir"所对应的参数，然后用Matlab运行"main.m"
   
   Python代码
+    
     安装所需的os,torch,prettytable,argparse,cv2,tqdm包
+    
     修改Python/Myeval.py中"--gt_root","--pred_root","--gpu_id","--data_lst","--model_lst"所对应参数，然后运行"Myeval.py"
 
 2.数据集下载链接
